@@ -1,0 +1,16 @@
+@import "/vars.css";
+.SepSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+hr{
+    
+    width: 350px;
+    height: 5px;
+    color: var(--color-primery);
+    background-color: var(--color-primery);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px #efecce75;
+}

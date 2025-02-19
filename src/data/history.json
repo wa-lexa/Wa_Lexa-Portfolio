@@ -1,0 +1,26 @@
+[
+    {
+        "role": "Magasinier - Job étudiant",
+        "employer": "G4S",
+        "startDate": "Août 2015",
+        "endDate": "Août 2015",
+        "missions": ["Préparation des colis","Rangement des stocks","Livraison du matériel informatique dans les bureaux"],
+        "imgSrc": "/media/history/g4s.png"
+    },
+    {
+        "role": "Vendeuse - Stagiaire",
+        "employer": "Orchestra",
+        "startDate": "Novembre 2016",
+        "endDate": "Décembre 2016",
+        "missions": ["Réassort des rayons","Étiquettage des articles","Rangement du magasin"],
+        "imgSrc": "/media/history/orchestra.png"
+    },
+    {
+        "role": "Vendeuse",
+        "employer": "Jonak",
+        "startDate": "Avril 2023",
+        "endDate": "Juin 2023",
+        "missions": ["Accompagnement de la clientèle","Rangement du magasin","Rangement du stock"],
+        "imgSrc": "/media/history/jonak.png"
+    }
+]

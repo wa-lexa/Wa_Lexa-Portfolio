@@ -1,0 +1,139 @@
+@import "/vars.css";
+
+.aboutSection{
+    width: 100%;
+    height: 550px;
+    margin-top:0;
+    margin-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 7px;
+    background-color: var(--color-secondary);
+}
+.avatar{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px var(--color-primery);
+    border-style: double;
+    border-radius: 50%;
+}
+.avatar img{
+    width:90%;
+    height:90%;
+    border-radius: 50%;
+    
+}
+
+.presentation{
+    width: 700px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 6px var(--color-primery);
+    border-style:  hidden double hidden double ;
+    border-radius: 45px;
+    background: linear-gradient(0deg, #001b2e 0%, #01365c 50%, #001b2e 100%);
+    
+}
+.presentationTexts{
+    width: 650px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.presentationTexts p{
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    line-height: 1.35;
+    text-align: center;
+}
+
+
+.likeToDo{
+    margin-right: 7px;
+    width: 550px;
+    height: 400px;
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 6px var(--color-primery);
+    border-style:  hidden double hidden double ;
+    border-radius: 45px;
+    background: linear-gradient(0deg, #001b2e 0%, #01365c 50%, #001b2e 100%);
+}
+.toDoList{
+    width: 490px;
+    height: 360px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px,0.5fr));
+    gap: 20px;
+}
+.toDo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.toDo img{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/* Tablette */
+@media screen and (max-width:830px){
+    .aboutSection{
+        flex-direction: column;
+    }
+    .avatar img{
+        width: 75%;
+        height: 75%;
+    }
+    .presentationTexts{
+        width: 550px;
+    }
+}
+
+/* Smartphone */
+@media screen and (max-width:480px){
+    .aboutSection{
+        flex-direction: column;
+    }
+    .avatar img{
+        width: 65%;
+        height: 65%;
+    }
+
+    .presentation{
+        width: 390px;
+    }
+    .presentationTexts{
+        width: 380px;
+    }
+    
+    .likeToDo{
+        width: 390px;
+    }
+    .likeToDo ul{
+        width:380px;
+    }
+    .likeToDo img{
+        width: 35px;
+        height: 35px;
+    }
+}
+

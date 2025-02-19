@@ -1,0 +1,121 @@
+.cntSec{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2{
+    font-size: 50px;
+}
+
+.contact{
+    width: 100%;
+    height: 390px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.socials{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 400px;
+    height: 210px;
+    border: 6px var(--color-primery);
+    border-radius: 45px;
+    border-style: hidden double hidden double;
+    background: linear-gradient(0deg, #001b2e 0%, #01365c 50%, #001b2e 100%);
+}
+h3{
+    font-size: 29px;
+    text-align: center;
+}
+.links{
+    width: 390px;
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 80px;
+}
+.link{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.link img{
+    width: 65px;
+    height: 65px;
+}
+.link a{
+    color: var(--color-primery);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 400px;
+    height: 350px;
+    border: 6px var(--color-primery);
+    border-radius: 45px;
+    border-style: hidden double hidden double;
+    background: linear-gradient(0deg, #001b2e 0%, #01365c 50%, #001b2e 100%);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+} 
+.input {
+    background: var(--color-primery);
+    height: 40px;
+    width: 300px;
+    border-radius: 15px;
+
+} 
+.input::placeholder, textarea::placeholder{
+    color: var(--color-secondary);
+    font-size: 20px;
+    text-align: center;
+}
+.textarea {
+    background: var(--color-primery);
+    height: 120px;
+    width: 300px;
+    border-radius: 15px;
+}  
+.button {
+    font-size: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 45px;
+    background: var(--color-primery);
+    color: var(--color-secondary);
+} 
+.button:hover { 
+    border-color: var(--color-primery);
+    background: var(--color-secondary);
+    color: var(--color-primery);
+} 
+.error {
+    color: rgb(247, 91, 91);
+    font-size: 15px;
+} 
+.success {
+    color: rgb(111, 188, 144);
+    font-size: 18px;
+    text-align: center;
+}

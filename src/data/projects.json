@@ -1,0 +1,26 @@
+[
+    {
+        "title": "The Hangman",
+        "imgSrc": "/media/projects/hangman.png",
+        "description": "Exercice fait dans le cadre mon apprentissage en développement. Uniquement jouable sur ordinateur",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "demo": "https://hangman-steel-six.vercel.app/",
+        "source": "https://github.com/wa-lexa/hangman"
+      },
+      {
+        "title": "Green It Quizz",
+        "imgSrc": "/media/projects/greenitquizz.png",
+        "description": "Projet de quizz rélisé en équipe lors du Hackathon 2024 d'Interface3",
+        "skills": ["HTML", "CSS", "JavaScript","PhaserJS","PHP"],
+        "demo": "https://hackathon24.interface3.be/greenitquizz/",
+        "source": "https://github.com/waerks/Interface3Hackaton"
+      },
+      {
+        "title": "Wa Lexa Portfolio",
+        "imgSrc": "/media/projects/portfolio.png",
+        "description": "Mon portfoliob en React",
+        "skills": ["HTML", "CSS", "JavaScript","React"],
+        "demo": "",
+        "source": ""
+      }
+]

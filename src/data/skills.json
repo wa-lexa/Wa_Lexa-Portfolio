@@ -1,0 +1,34 @@
+[
+    {
+        "title":"HTML5",
+        "imgSrc":"/media/skills/html5.png"
+    },
+    {
+        "title":"CSS3",
+        "imgSrc":"/media/skills/css3.png"
+    },
+    {
+        "title":"JavaScript",
+        "imgSrc":"/media/skills/javascript.png"
+    },
+    {
+        "title":"React",
+        "imgSrc":"/media/skills/react.png"
+    },
+    {
+        "title":"Wordpress",
+        "imgSrc":"/media/skills/wordpress.png"
+    },
+    {
+        "title":"Illustrator",
+        "imgSrc":"/media/skills/illustrator.png"
+    },
+    {
+        "title":"Photoshop",
+        "imgSrc":"/media/skills/photoshop.png"
+    },
+    {
+        "title":"Figma",
+        "imgSrc":"/media/skills/figma.png"
+    }
+]
