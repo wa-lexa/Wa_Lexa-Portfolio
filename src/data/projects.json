@@ -20,7 +20,7 @@
         "imgSrc": "/media/projects/portfolio.png",
         "description": "Mon portfoliob en React",
         "skills": ["HTML", "CSS", "JavaScript","React"],
-        "demo": "",
-        "source": ""
+        "demo": "https://wa-lexa-portfolio.vercel.app/",
+        "source": "https://github.com/wa-lexa/Wa_Lexa-Portfolio"
       }
 ]
